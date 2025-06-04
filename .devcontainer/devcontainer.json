@@ -1,8 +1,0 @@
-{
-  "name": "Dev Stage",
-  "dockerComposeFile": ["../server/docker-compose.yml"],
-  "service": "service-pg",
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-  "forwardPorts": [5432, 6379],
-  "postCreateCommand": "docker-compose up -d"
-}
