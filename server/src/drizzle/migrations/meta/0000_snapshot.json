@@ -42,16 +42,12 @@
         "subscriptions_name_unique": {
           "name": "subscriptions_name_unique",
           "nullsNotDistinct": false,
-          "columns": [
-            "name"
-          ]
+          "columns": ["name"]
         },
         "subscriptions_email_unique": {
           "name": "subscriptions_email_unique",
           "nullsNotDistinct": false,
-          "columns": [
-            "email"
-          ]
+          "columns": ["email"]
         }
       },
       "policies": {},

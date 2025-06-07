@@ -1,8 +1,8 @@
-import type { FastifyPluginAsyncZod } from "fastify-type-provider-zod";
-import z from "zod";
-import { env } from "../env";
-import { AccessInviteLink } from "../functions/access-invite-link";
-import { redis } from "../redis/client";
+import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod'
+import z from 'zod'
+import { env } from '../env'
+import { AccessInviteLink } from '../functions/access-invite-link'
+import { redis } from '../redis/client'
 
 export const accessInviteLinkRoute: FastifyPluginAsyncZod = async app => {
   app.get(
@@ -34,7 +34,6 @@ export const accessInviteLinkRoute: FastifyPluginAsyncZod = async app => {
       // 302 redirect temporário
 
       return reply.redirect(redirectUrl.toString(), 302)
-
     }
   )
 }

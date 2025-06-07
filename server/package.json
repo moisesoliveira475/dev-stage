@@ -28,11 +28,7 @@
     "typescript": "^5.7.3"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
-      "@biomejs/biome"
-    ],
-    "ignoredBuiltDependencies": [
-      "esbuild"
-    ]
+    "onlyBuiltDependencies": ["@biomejs/biome"],
+    "ignoredBuiltDependencies": ["esbuild"]
   }
 }
