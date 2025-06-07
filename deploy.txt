@@ -1,0 +1,3 @@
+neon.tech para postgree
+upstash redis
+render deploy node
